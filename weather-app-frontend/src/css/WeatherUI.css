@@ -1,0 +1,135 @@
+.weather-ui {
+  min-height: 100vh;
+  background: #18356F;
+  color: white;
+  position: relative;
+   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+
+}
+
+.weather-header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 20px;
+
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.weather-title {
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-icon {
+  font-size: 32px;
+}
+
+.weather-main {
+  padding: 20px;
+}
+
+.weather-card {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #4f525aff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.weather-top-bg {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 30px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.weather-top-bg h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.weather-top-bg p {
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.weather-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weather-condition {
+  text-align: center;
+}
+
+.weather-icon-large {
+  font-size: 70px;
+}
+
+.weather-temp {
+  text-align: center;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.weather-temp span {
+  font-size: 28px;
+  vertical-align: top;
+}
+
+.temp-min-max {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.weather-metrics {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wind-info {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sun-info {
+  text-align: right;
+}
+
+.metric {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.weather-footer {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.no-city {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
